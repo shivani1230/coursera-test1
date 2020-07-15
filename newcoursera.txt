@@ -1,0 +1,507 @@
+//Desktop View
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Course-era</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #box {
+                box-sizing: border-box;
+                border: 2px solid black;
+                padding: 10px 10px 10px 5px;
+                background-color: gray;
+
+                float: left;
+                position: relative;
+                top: 50px;
+                left: 50px;
+                margin: 10px;
+                clear: left;
+            }
+            @media (min-width: 992px) {
+            	#box{
+            	width : 340px;
+            	height: 160px;
+            		}
+            	}
+            #sample{
+                box-sizing: border-box;
+                padding: 15px 15px 15px 15px;
+                border: 2px solid black;
+                background-color: pink;
+             	float: right;
+             	position: relative;
+      	   		bottom:  10px;
+         		left: 10px;
+            	height: 17px;
+            	margin-left:  50px;
+            	margin-bottom:  20px;
+            }
+
+            #box2{
+                box-sizing: border-box;
+                border: 2px solid black;
+                padding: 10px 10px 10px 5px;
+                background-color: gray;
+
+                float: left;
+                position: relative;
+                top: 50px;
+                left: 50px;
+                margin: 10px;
+                clear: right;
+            }
+            @media (min-width: 992px) {
+			            	#box2{
+			            	width : 340px;
+			            	height: 160px;
+			            		}
+            	}
+
+            #s2{
+			    box-sizing: border-box;
+			    padding: 15px 15px 15px 15px;
+			    border: 2px solid black;
+			   	background-color: red;
+			   	float: right;
+			   	position: relative;
+			    bottom: 10px;
+			    left: 10px;
+			   	height: 15px;
+			   	margin-left:  50px;
+			   	margin-bottom:  20px;
+			   	color: white;
+            }
+
+              #box3{
+                box-sizing: border-box;
+                border: 2px solid black;
+                padding: 10px 10px 10px 5px;
+                background-color: gray;
+
+                float: left;
+                position: relative;
+                top: 50px;
+                left: 50px;
+                margin: 10px;
+                clear: right;
+            }
+            @media (min-width: 992px) {
+			            	#box3{
+			            	width : 340px;
+			            	height: 160px;
+			            		}
+            	}
+
+            #s3{
+                box-sizing: border-box;
+                padding: 15px 15px 15px 15px;
+                border: 2px solid black;
+            	background-color: yellow;
+             	float: right;
+             	position: relative;
+         		bottom:  10px;
+         		left: 10px;
+            	height: 15px;
+            	margin-left:  50px;
+            	margin-bottom:  20px;
+            }
+
+            #content{
+                height: 10px;
+                padding: 20px;
+                padding-left: 2px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+    <center> <h1><b>Our Menu</b></h1></center>
+        <div id="box">
+            <div id="sample"><b>Chicken</b></div>
+            <div id="content">
+                <b>   Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliqup ex ea commodo consequat.
+                </b>
+            </div>
+        </div>
+
+    <div id="box2">
+        <div id="s2"><b>Beef</b></div>
+        <div id="content">
+                 <b>   Lorem ipsum dolor sit amet,consectetur
+                adipisicing elit,sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliqup ex ea commodo consequat.
+                 </b>
+        </div>
+    </div>
+
+    <div id="box3">
+    <div id="s3"><b>Sushi</b></div>
+        <div id="content">
+                 <b>   Lorem ipsum dolor sit amet,consectetur
+                adipisicing elit,sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliqup ex ea commodo consequat.
+                 </b>
+        </div>
+    </div>
+    </body>
+</html>
+------------------------------------------------------------------------------------------------------------------------
+//Tablet View
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tablet View</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+            #box {
+                box-sizing: border-box;
+                border: 2px solid black;
+                padding: 10px 10px 10px 5px;
+                background-color: gray;
+
+                float: left;
+                position: relative;
+                top: 50px;
+                left: 50px;
+                margin: 25px;
+                clear: left;
+                margin-left: 30px;
+             }
+
+            @media (min-width: 768px) {
+            		#box{
+            		height: 140px;
+                	width: 470px;
+                	}
+                }
+
+
+            #sample{
+                box-sizing: border-box;
+                padding: 15px 15px 15px 15px;
+                border: 2px solid black;
+                background-color: pink;
+                float: right;
+                position: relative;
+                bottom:  10px;
+                left: 10px;
+                height: 15px;
+                margin-left:  50px;
+                margin-bottom:  20px;
+            }
+            #box2{
+                box-sizing: border-box;
+                border: 2px solid black;
+                padding: 10px 10px 10px 5px;
+                background-color: gray;
+
+                float: left;
+                position: relative;
+                top: 50px;
+                left: 50px;
+                margin: 25px;
+                clear: right;
+            }
+
+            @media (min-width: 768px) {
+			            		#box2{
+			            		height: 140px;
+			                	width: 470px;
+			                	}
+			                }
+			    #s2{
+                box-sizing: border-box;
+                padding: 15px 15px 15px 15px;
+                border: 2px solid black;
+                background-color: red;
+                float: right;
+                position: relative;
+                bottom:  10px;
+                left: 10px;
+                height: 15px;
+                margin-left:  50px;
+                margin-bottom:  20px;
+                color: white;
+            }
+
+              #box3{
+                box-sizing: border-box;
+                border: 2px solid black;
+                padding: 10px 10px 10px 5px;
+                background-color: gray;
+
+                float: left;
+                position: relative;
+                top: 50px;
+                left: 50px;
+                margin: 25px;
+                clear: right;
+                margin-right: 30px;
+            }
+
+           		@media (min-width: 991px) {
+			      #box3{
+			      height: 140px;
+			      width: 991px;
+			          }
+			      }
+
+            #s3{
+                box-sizing: border-box;
+                padding: 15px 15px 15px 15px;
+                border: 2px solid black;
+                background-color: yellow;
+                float: right;
+                position: relative;
+                bottom:  10px;
+                left: 10px;
+                height: 15px;
+                margin-left:  50px;
+                margin-bottom:  20px;
+            }
+
+            #content{
+                height: 10px;
+                padding: 20px;
+                padding-left: 2px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+    <center> <h1><b>Our Menu</b></h1></center>
+        <div id="box">
+            <div id="sample"><b>Chicken</b></div>
+            <div id="content">
+                <b>   Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliqup ex ea commodo consequat.
+                </b>
+            </div>
+        </div>
+
+    <div id="box2">
+        <div id="s2"><b>Beef</b></div>
+        <div id="content">
+                 <b>   Lorem ipsum dolor sit amet,consectetur
+                adipisicing elit,sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliqup ex ea commodo consequat.
+                 </b>
+        </div>
+    </div>
+
+    <div id="box3">
+    <div id="s3"><b>Sushi</b></div>
+        <div id="content">
+                 <b>   Lorem ipsum dolor sit amet,consectetur
+                adipisicing elit,sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliqup ex ea commodo consequat.
+                Lorem ipsum dolor sit amet,consectetur
+                adipisicing elit,sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliqup ex ea commodo consequat.
+                 </b>
+        </div>
+    </div>
+    </body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------
+//Mobile View
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mobile View</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+            #box {
+                box-sizing: border-box;
+                border: 2px solid black;
+                padding: 10px 10px 10px 5px;
+                background-color: gray;
+			    position: relative;
+                top: 50px;
+                left: 50px;
+
+                margin: 25px;
+                clear:  both;
+                margin-left: 350px;
+            }
+
+            @media (min-width: 768px) {
+			            	#box{
+			            	width : 600px;
+			            	height: 150px;
+			            		}
+            	}
+
+            #sample{
+                box-sizing: border-box;
+                padding: 15px 15px 15px 15px;
+                border: 2px solid black;
+             	background-color: pink;
+             	float: right;
+             	position: relative;
+         		bottom:  10px;
+         		left: 10px;
+            	height: 15px;
+            	margin-left:  50px;
+            	margin-bottom:  20px;
+            }
+
+            #box2{
+                box-sizing: border-box;
+                border: 2px solid black;
+                padding: 10px 10px 10px 5px;
+                background-color: gray;
+                position: relative;
+                top: 50px;
+
+         		left: 50px;
+                margin: 25px;
+                clear: right;
+                margin-left: 350px;
+            }
+			@media (min-width: 768px) {
+						            	#box2{
+						            	width : 600px;
+						            	height: 150px;
+						            		}
+			            	}
+
+            #s2{
+			    box-sizing: border-box;
+			    padding: 15px 15px 15px 15px;
+			    border: 2px solid black;
+			    background-color: red;
+			    float: right;
+			    position: relative;
+			    bottom:  10px;
+			    left: 10px;
+			    height: 15px;
+			    margin-left:  50px;
+			    margin-bottom:  20px;
+			    color: white;
+            }
+
+              #box3{
+                box-sizing: border-box;
+                border: 2px solid black;
+                padding: 10px 10px 10px 5px;
+                background-color: gray;
+                position: relative;
+                top: 50px;
+
+                left: 50px;
+                margin: 25px;
+                clear: right;
+                margin-left: 350px;
+            }
+
+				@media (min-width: 768px) {
+							            	#box3{
+							            	width : 600px;
+							            	height: 150px;
+							            		}
+				            	}
+
+
+            #s3{
+                box-sizing: border-box;
+                padding: 15px 15px 15px 15px;
+                border: 2px solid black;
+                background-color: yellow;
+                float: right;
+                position: relative;
+                bottom:  10px;
+                left: 10px;
+                height: 15px;
+                margin-left:  50px;
+                margin-bottom:  20px;
+            }
+
+            #content{
+                height: 10px;
+                padding: 20px;
+                padding-left: 2px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+    <center> <h1><b>Our Menu</b></h1></center>
+        <div id="box">
+            <div id="sample"><b>Chicken</b></div>
+            <div id="content">
+                <b>   Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliqup ex ea commodo consequat.
+                </b>
+            </div>
+        </div>
+
+    <div id="box2">
+        <div id="s2"><b>Beef</b></div>
+        <div id="content">
+                 <b>   Lorem ipsum dolor sit amet,consectetur
+                adipisicing elit,sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliqup ex ea commodo consequat.
+                 </b>
+        </div>
+    </div>
+
+    <div id="box3">
+    <div id="s3"><b>Sushi</b></div>
+        <div id="content">
+                 <b>   Lorem ipsum dolor sit amet,consectetur
+                adipisicing elit,sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliqup ex ea commodo consequat.
+
+                 </b>
+        </div>
+    </div>
+    </body>
+
+</html>
